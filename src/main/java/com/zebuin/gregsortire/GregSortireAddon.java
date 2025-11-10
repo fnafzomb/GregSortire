@@ -14,7 +14,7 @@ public class GregSortireAddon implements IGTAddon {
 
     @Override
     public GTRegistrate getRegistrate() {
-        return GregSortire.EXAMPLE_REGISTRATE;
+        return GregSortire.REGISTRATE;
     }
 
     @Override
