@@ -58,8 +58,6 @@ public class GregSortire {
             if (!(preEvent.getScreen() instanceof AbstractContainerScreen<?> containerScreen)) return;
 
             CHANNEL.sendToServer(new SortRequest());
-            // отменить СКМ чтобы избежать конфликт с другими модами
-            preEvent.setCanceled(true);
         });
     }
 
